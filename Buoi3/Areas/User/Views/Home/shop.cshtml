@@ -1,0 +1,154 @@
+@model Buoi3.Areas.User.Controllers.HomeController.CheckoutViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            line-height: 28px;
+            color: #6a6a6a;
+            font-size: 14px;
+            background-color: #eff2f1;
+            margin: 0;
+            padding-top: 70px; /* Ensure content is not hidden under the top box */
+            padding-bottom: 70px; /* Ensure content is not hidden under the bottom box */
+        }
+
+        .product-item {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #2f2f2f;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            max-height: 175px;
+            margin-bottom: 10px;
+        }
+
+        .product-item h4, .product-item h5 {
+            margin-bottom: 10px;
+        }
+
+        .btn-add-to-cart {
+            padding: 10px 20px;
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease; /* Adding a transition for smooth animation */
+        }
+
+        /* When the button is hovered over, apply a transformation */
+        .btn-add-to-cart:hover {
+            transform: translateY(-5px); /* Move the button 5 pixels upwards */
+        }
+
+        .container {
+            max-width: 1200px; /* Adjust container width as needed */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .fixed-top-box, .fixed-bottom-box {
+            position: fixed;
+            left: 0;
+            right: 0;
+            height: 50px; /* Adjust the height as needed */
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .fixed-top-box {
+            top: 0;
+        }
+
+        .fixed-bottom-box {
+            bottom: 0;
+        }
+    </style>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+
+    <!-- Start Hero Section -->
+    <div class="container mt-4">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <form method="post" action="@Url.Action("Shop", "Home")">                     
+                        <button type="submit" class="btn btn-primary btn-add-to-cart">Shop</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        @foreach (var category in Model.Categories)
+                        {
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("shopCategory", "Home", new { id = category.Id })">@category.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+    <!-- Product Section -->
+
+    <div class="container mt-4">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-12 col-md-4 col-lg-3 mb-4">
+                    <a class="product-item" asp-action="Details" asp-route-id="@product.Id">
+                        @if (!string.IsNullOrEmpty(product.ImageUrl))
+                        {
+                            <img src="@product.ImageUrl" alt="@product.Name">
+                        }
+                        else
+                        {
+                            <span>No Image</span>
+                        }
+                        <h4>@product.Name</h4>
+                        <h5 style="text-align: center">$ @String.Format("{0:n2}", product.Price).Replace(",", ".")</h5>
+
+                        <form method="post" action="@Url.Action("AddToCart", "ShoppingCart")">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <input type="hidden" name="quantity" value="1" />
+                            <button type="submit" class="btn btn-primary btn-add-to-cart">Add to Cart</button>
+                        </form>
+                      
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+    <!-- End Product Section -->
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/tiny-slider.js"></script>
+    <script src="~/js/custom.js"></script>
+</body>
+</html>

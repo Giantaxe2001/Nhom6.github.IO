@@ -1,0 +1,114 @@
+﻿@model Product
+
+<title>Product Details</title>
+<style>
+    .btn-add-to-cart {
+        padding: 10px 20px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease; /* Adding a transition for smooth animation */
+    }
+
+        /* When the button is hovered over, apply a transformation */
+        .btn-add-to-cart:hover {
+            transform: translateY(-5px); /* Move the button 5 pixels upwards */
+        }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .product-details {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .product-description {
+        max-width: 500px;
+    }
+
+    .price {
+        color: #e63946;
+        font-weight: bold;
+    }
+
+    .quantity-selector {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container py-5 mt-5">
+    <div class="row g-4 mb-5">
+        <div class="col-lg-8 col-xl-9 mx-auto">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="product-image-wrapper">
+                        <img src="@Model.ImageUrl" class="product-image" alt="Product Image" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-details">
+                        <h2 class="fw-bold mb-3">@Model.Name</h2>
+                        <p class="mb-2"><strong>Category:</strong> @Model.Category.Name</p>
+                        <h3 style="text-align: center">$ @String.Format("{0:n2}", Model.Price).Replace(",", ".")</h3>
+                        <p class="product-description">@Model.Description</p>
+                        <form method="post" action="@Url.Action("AddToCart", "ShoppingCart")" class="mt-4">
+                            <input type="hidden" name="productId" value="@Model.Id" />
+                            <div class="quantity-selector">
+                                <label for="quantity" class="form-label">Quantity:</label>
+                                <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" max="100" />
+                            </div>
+                            <button type="submit" class="btn btn-add-to-cart">Add to Cart</button>
+                        </form>
+                        <div id="cart-message" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/.https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#add-to-cart-form').on('submit', function (e) {
+                e.preventDefault();
+
+                var form = $(this);
+                var url = '@Url.Action("AddToCart", "ShoppingCart")';
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form.serialize(),
+                    success: function (response) {
+                        $('#cart-message').html('<div class="alert alert-success">Product added to cart successfully!</div>');
+                    },
+                    error: function (response) {
+                        $('#cart-message').html('<div class="alert alert-danger">There was an error adding the product to the cart.</div>');
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+
+                    }
+
+<script>
+    document.getElementById('quantity').addEventListener('keydown', function (e) {
+        if (e.key !== 'ArrowUp' && e.key !== 'ArrowDown' && e.key !== 'Tab' && e.key !== 'Backspace') {
+            e.preventDefault();
+        }
+    });
+</script>

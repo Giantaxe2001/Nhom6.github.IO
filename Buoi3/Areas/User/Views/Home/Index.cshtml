@@ -1,0 +1,265 @@
+﻿@model IEnumerable<Buoi3.Models.Product>
+<script src="~/https://kit.fontawesome.com/9f236e9958.js" crossorigin="anonymous"></script>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+	
+		.carousel .arrows {
+			font-size: 2em;
+			color: #a3cdd7;
+			cursor: pointer;
+		}
+
+			.carousel .arrows:hover {
+				color: #008cba;
+			}
+</style>
+
+
+<section id="billboard" class="position-relative overflow-hidden bg-light-blue">
+	<div class="swiper main-swiper">
+		<div class="swiper-icon swiper-arrow swiper-arrow-prev">
+			<i class="fa-solid fa-chevron-left"></i>
+		</div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+						<div class="col-md-6">
+							<div class="banner-content">
+								<h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1>
+								<a href="@Url.Action("shop","Home")" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="image-holder">
+								<img src="images/banner-image.png" alt="banner">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		<div class="swiper-icon swiper-arrow swiper-arrow-next">
+			<i class="fa-solid fa-chevron-right"></i>
+		</div>
+	</div>
+	
+	
+</section>
+
+
+@{
+	var lastThreeProducts = Model.OrderByDescending(p => p.Id)
+	.Take(3)
+	.ToList();
+}
+
+
+<style>
+	.btn-add-to-cart {
+		padding: 10px 20px;
+		background-color: black;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: transform 0.3s ease; /* Adding a transition for smooth animation */
+	}
+
+		/* When the button is hovered over, apply a transformation */
+		.btn-add-to-cart:hover {
+			transform: translateY(-5px); /* Move the button 5 pixels upwards */
+		}
+</style>
+
+<div class="product-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Start Column 1 -->
+			<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+				<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+				<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
+				<p><a href="@Url.Action("shop","Home")" class="btn">Explore</a></p>
+			</div>
+			<!-- End Column 1 -->
+			<!-- Start Column 2 -->
+
+			<div class="container mt-5">
+				<h3 class="mt-5">News Products</h3>
+				<div class="row">
+					@foreach (var product in lastThreeProducts)
+					{
+						<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+							<a class="product-item" asp-action="Details" asp-route-id="@product.Id">
+								@if (!string.IsNullOrEmpty(product.ImageUrl))
+								{
+									<img src="@product.ImageUrl" style="max-width: 280px; max-height: 175px;" />
+								}
+								else
+								{
+									<span>No Image</span>
+								}
+								<h4 style="text-align: center">@product.Name</h4>
+								<h5 style="text-align: center">$ @String.Format("{0:n2}", product.Price).Replace(",", ".")</h5>
+
+
+								<div class="rating" style="text-align: center">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<form method="post" action="@Url.Action("AddToCart", "ShoppingCart")">
+									<input type="hidden" name="productID" value="@product.Id" />
+									<input type="hidden" name="Quantity" value="1" />
+									<button type="submit" class="btn btn-primary btn-add-to-cart">Add to Cart</button>
+								</form>
+							</a>
+						</div>
+					}
+				</div>
+				<h3>Popular Products</h3>
+				<div class="row">
+					@foreach (var product in Model.Where(p => p.PoppularId == 1).Take(4))
+					{
+						<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+							<a class="product-item" asp-action="Details" asp-route-id="@product.Id">
+								@if (!string.IsNullOrEmpty(product.ImageUrl))
+								{
+									<img src="@product.ImageUrl" style="max-width: 280px; max-height: 175px;" />
+								}
+								else
+								{
+									<span>No Image</span>
+								}
+								<h4 style="text-align: center">@product.Name</h4>
+								<h5 style="text-align: center">$ @String.Format("{0:n2}", product.Price).Replace(",", ".")</h5>
+								<div class="rating" style="text-align: center">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<form method="post" action="@Url.Action("AddToCart", "ShoppingCart")">
+									<input type="hidden" name="productID" value="@product.Id" />
+									<input type="hidden" name="Quantity" value="1" />
+									<button type="submit" class="btn btn-primary btn-add-to-cart">Add to Cart</button>
+								</form>
+							</a>
+						</div>
+					}
+				</div>
+				
+				<h3 class="mt-5">Products On Sales</h3>
+				<div class="row">
+					@foreach (var product in Model.Where(p => p.PoppularId == 2).Take(4))
+					{
+						<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+							<a class="product-item" asp-action="Details" asp-route-id="@product.Id">
+								@if (!string.IsNullOrEmpty(product.ImageUrl))
+								{
+									<img src="@product.ImageUrl" style="max-width: 280px; max-height: 175px;" />
+								}
+								else
+								{
+									<span>No Image</span>
+								}
+								<h4 style="text-align: center">@product.Name</h4>
+								<h5 style="text-align: center">$ @String.Format("{0:n2}", product.Price).Replace(",", ".")</h5>
+								<div class="rating" style="text-align: center">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<form method="post" action="@Url.Action("AddToCart", "ShoppingCart")">
+									<input type="hidden" name="productID" value="@product.Id" />
+									<input type="hidden" name="Quantity" value="1" />
+									<button type="submit" class="btn btn-primary btn-add-to-cart">Add to Cart</button>
+								</form>
+							</a>
+						</div>
+					}
+				</div>
+
+
+			
+			</div>
+		</div>
+
+			
+	</div>
+</div>	
+
+ <div class="why-choose-section">
+							<div class="container">
+								<div class="row justify-content-between">
+									<div class="col-lg-6">
+										<h2 class="section-title">Why Choose Us</h2>
+										<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+
+										<div class="row my-5">
+											<div class="col-6 col-md-6">
+												<div class="feature">
+													<div class="icon">
+														<img src="~/images/truck.svg" alt="Image" class="imf-fluid">
+													</div>
+													<h3>Fast &amp; Free Shipping</h3>
+													<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+												</div>
+											</div>
+
+											<div class="col-6 col-md-6">
+												<div class="feature">
+													<div class="icon">
+														<img src="~/images/bag.svg" alt="Image" class="imf-fluid">
+													</div>
+													<h3>Easy to Shop</h3>
+													<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+												</div>
+											</div>
+
+											<div class="col-6 col-md-6">
+												<div class="feature">
+													<div class="icon">
+														<img src="~/images/support.svg" alt="Image" class="imf-fluid">
+													</div>
+													<h3>24/7 Support</h3>
+													<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+												</div>
+											</div>
+
+											<div class="col-6 col-md-6">
+												<div class="feature">
+													<div class="icon">
+														<img src="~/images/return.svg" alt="Image" class="imf-fluid">
+													</div>
+													<h3>Hassle Free Returns</h3>
+													<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-5">
+										<div class="img-wrap">
+											<img src="~/images/insta-item1.jpg" alt="Image" class="img-fluid">
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- End Why Choose Us Section -->
+			
+						
+						
+
+		
+

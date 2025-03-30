@@ -1,0 +1,1009 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Buoi3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Buoi3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\OIP.jfif",
+      "PackagePath": "staticwebassets\\Images\\OIP.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\af860bb1-6ba3-4447-a3da-c945242114d6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\af860bb1-6ba3-4447-a3da-c945242114d6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\bag.svg",
+      "PackagePath": "staticwebassets\\Images\\bag.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\banner-image.png",
+      "PackagePath": "staticwebassets\\Images\\banner-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\banner-image2.png",
+      "PackagePath": "staticwebassets\\Images\\banner-image2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\cart-item1.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\cart-item2.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\cart.png",
+      "PackagePath": "staticwebassets\\Images\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\cart.svg",
+      "PackagePath": "staticwebassets\\Images\\cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\category-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\couch.png",
+      "PackagePath": "staticwebassets\\Images\\couch.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\cross.svg",
+      "PackagePath": "staticwebassets\\Images\\cross.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\dhl.png",
+      "PackagePath": "staticwebassets\\Images\\dhl.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\dots-green.svg",
+      "PackagePath": "staticwebassets\\Images\\dots-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\dots-light.svg",
+      "PackagePath": "staticwebassets\\Images\\dots-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\dots-yellow.svg",
+      "PackagePath": "staticwebassets\\Images\\dots-yellow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\envelope-outline.svg",
+      "PackagePath": "staticwebassets\\Images\\envelope-outline.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\exclusive Product.png",
+      "PackagePath": "staticwebassets\\Images\\exclusive Product.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\hotdeal.png",
+      "PackagePath": "staticwebassets\\Images\\hotdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\huawei-mate-20-pro-green-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\huawei-mate-20-pro-green-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\huawei-nova-3-2-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\huawei-nova-3-2-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\huawei-y5-2017-300x300.jpg",
+      "PackagePath": "staticwebassets\\Images\\huawei-y5-2017-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\img-grid-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\img-grid-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\img-grid-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\img-grid-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\img-grid-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\img-grid-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\insta-item1.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\insta-item2.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\insta-item3.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\insta-item4.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\insta-item5.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\ipad-wifi-32gb-2018-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\ipad-wifi-32gb-2018-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\iphone-7-plus-32gb-hh-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\iphone-7-plus-32gb-hh-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\iphone-x-256gb-silver-400x400.jpg",
+      "PackagePath": "staticwebassets\\Images\\iphone-x-256gb-silver-400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\iphone10.jpg",
+      "PackagePath": "staticwebassets\\Images\\iphone10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\mastercard.jpg",
+      "PackagePath": "staticwebassets\\Images\\mastercard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\menu.png",
+      "PackagePath": "staticwebassets\\Images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\mobiistar-b310-orange-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\mobiistar-b310-orange-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\mobiistar-e-selfie-300-1copy-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\mobiistar-e-selfie-300-1copy-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\mobiistar-x-3-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\mobiistar-x-3-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\mobiistar-zumbo-s2-dual-300x300.jpg",
+      "PackagePath": "staticwebassets\\Images\\mobiistar-zumbo-s2-dual-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\nokia-51-plus-black-18thangbh-400x400.jpg",
+      "PackagePath": "staticwebassets\\Images\\nokia-51-plus-black-18thangbh-400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\paypal.jpg",
+      "PackagePath": "staticwebassets\\Images\\paypal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\play-store.png",
+      "PackagePath": "staticwebassets\\Images\\play-store.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-image.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item1.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item2.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item3.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item4.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item5.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item6.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item7.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item8.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-item9.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-item9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-small-image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-small-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-small-image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-small-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\post-small-image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\post-small-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-1.png",
+      "PackagePath": "staticwebassets\\Images\\product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-2.png",
+      "PackagePath": "staticwebassets\\Images\\product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-3.png",
+      "PackagePath": "staticwebassets\\Images\\product-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-8.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item10.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item5.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item6.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item7.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item8.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product-item9.jpg",
+      "PackagePath": "staticwebassets\\Images\\product-item9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product01.png",
+      "PackagePath": "staticwebassets\\Images\\product01.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product02.png",
+      "PackagePath": "staticwebassets\\Images\\product02.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product03.png",
+      "PackagePath": "staticwebassets\\Images\\product03.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product04.png",
+      "PackagePath": "staticwebassets\\Images\\product04.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product05.png",
+      "PackagePath": "staticwebassets\\Images\\product05.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product06.png",
+      "PackagePath": "staticwebassets\\Images\\product06.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product07.png",
+      "PackagePath": "staticwebassets\\Images\\product07.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product08.png",
+      "PackagePath": "staticwebassets\\Images\\product08.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\product09.png",
+      "PackagePath": "staticwebassets\\Images\\product09.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\return.svg",
+      "PackagePath": "staticwebassets\\Images\\return.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\review-item1.jpg",
+      "PackagePath": "staticwebassets\\Images\\review-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\review-item2.jpg",
+      "PackagePath": "staticwebassets\\Images\\review-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\samsung-galaxy-a8-plus-2018-gold-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsung-galaxy-a8-plus-2018-gold-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\samsung-galaxy-j4-plus-pink-400x400.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsung-galaxy-j4-plus-pink-400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\samsung-galaxy-j8-600x600-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsung-galaxy-j8-600x600-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\search-icon.png",
+      "PackagePath": "staticwebassets\\Images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\shippingcard.png",
+      "PackagePath": "staticwebassets\\Images\\shippingcard.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\shop01.png",
+      "PackagePath": "staticwebassets\\Images\\shop01.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\shop02.png",
+      "PackagePath": "staticwebassets\\Images\\shop02.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\shop03.png",
+      "PackagePath": "staticwebassets\\Images\\shop03.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\singel-product-item.jpg",
+      "PackagePath": "staticwebassets\\Images\\singel-product-item.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\single-image1.png",
+      "PackagePath": "staticwebassets\\Images\\single-image1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\single-image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\single-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\single-image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\single-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\single-post.jpg",
+      "PackagePath": "staticwebassets\\Images\\single-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\sofa.png",
+      "PackagePath": "staticwebassets\\Images\\sofa.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\support.svg",
+      "PackagePath": "staticwebassets\\Images\\support.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\truck.svg",
+      "PackagePath": "staticwebassets\\Images\\truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\tải xuống.jfif",
+      "PackagePath": "staticwebassets\\Images\\tải xuống.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\user.svg",
+      "PackagePath": "staticwebassets\\Images\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\visa.jpg",
+      "PackagePath": "staticwebassets\\Images\\visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\why-choose-us-img.jpg",
+      "PackagePath": "staticwebassets\\Images\\why-choose-us-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\xiaomi-mi-8-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\xiaomi-mi-8-1-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\xiaomi-mi-8-lite-black-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\xiaomi-mi-8-lite-black-1-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\xiaomi-redmi-5-plus-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\xiaomi-redmi-5-plus-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\Images\\xiaomi-redmi-note-5-pro-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\xiaomi-redmi-note-5-pro-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\_Layout.cshtml.css",
+      "PackagePath": "staticwebassets\\_Layout.cshtml.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\banner.css",
+      "PackagePath": "staticwebassets\\css\\banner.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\hotdeal.png",
+      "PackagePath": "staticwebassets\\img\\hotdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product01.png",
+      "PackagePath": "staticwebassets\\img\\product01.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product02.png",
+      "PackagePath": "staticwebassets\\img\\product02.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product03.png",
+      "PackagePath": "staticwebassets\\img\\product03.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product04.png",
+      "PackagePath": "staticwebassets\\img\\product04.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product05.png",
+      "PackagePath": "staticwebassets\\img\\product05.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product06.png",
+      "PackagePath": "staticwebassets\\img\\product06.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product07.png",
+      "PackagePath": "staticwebassets\\img\\product07.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product08.png",
+      "PackagePath": "staticwebassets\\img\\product08.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\product09.png",
+      "PackagePath": "staticwebassets\\img\\product09.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\shop01.png",
+      "PackagePath": "staticwebassets\\img\\shop01.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\shop02.png",
+      "PackagePath": "staticwebassets\\img\\shop02.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\img\\shop03.png",
+      "PackagePath": "staticwebassets\\img\\shop03.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\Jquery\\Jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\Jquery\\Jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\js\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\chitietsanpham.js",
+      "PackagePath": "staticwebassets\\js\\chitietsanpham.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\classes.js",
+      "PackagePath": "staticwebassets\\js\\classes.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\dungchung.js",
+      "PackagePath": "staticwebassets\\js\\dungchung.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\giohang.js",
+      "PackagePath": "staticwebassets\\js\\giohang.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\lienhe.js",
+      "PackagePath": "staticwebassets\\js\\lienhe.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\nguoidung.js",
+      "PackagePath": "staticwebassets\\js\\nguoidung.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\js\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\owlcarousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\js\\owlcarousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\js\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\js\\trangchu.js",
+      "PackagePath": "staticwebassets\\js\\trangchu.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\prepros-6.config",
+      "PackagePath": "staticwebassets\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\screenshot\\Checkout.png",
+      "PackagePath": "staticwebassets\\screenshot\\Checkout.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\screenshot\\Index.png",
+      "PackagePath": "staticwebassets\\screenshot\\Index.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\screenshot\\Product.png",
+      "PackagePath": "staticwebassets\\screenshot\\Product.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\screenshot\\Regular.png",
+      "PackagePath": "staticwebassets\\screenshot\\Regular.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\screenshot\\Store.png",
+      "PackagePath": "staticwebassets\\screenshot\\Store.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\LeXuanDucAnh_NguyenPhuongDuy\\Source\\Buoi3\\Buoi3\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Buoi3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Buoi3.props",
+      "PackagePath": "build\\Buoi3.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Buoi3.props",
+      "PackagePath": "buildMultiTargeting\\Buoi3.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Buoi3.props",
+      "PackagePath": "buildTransitive\\Buoi3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

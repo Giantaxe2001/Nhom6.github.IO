@@ -1,0 +1,52 @@
+﻿@model Buoi3.Areas.User.Controllers.OrderController.OrderDetailsViewModel
+
+<h1>Order Details</h1>
+
+<div>
+    <p>Order ID: @Model.Order.Id</p>
+    <!-- Other order information such as date, customer details, etc. -->
+</div>
+<div>
+    <p>Status: @Model.Order.Status</p>
+</div>
+<div>
+    <h4>Product Details</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detail in Model.OrderDetails)
+            {
+                <tr>
+                    <td>@detail.Product.Name</td>
+                    <td>@detail.Quantity</td>
+                    <td>$ @detail.Price</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+<div>
+    <p>Total:$ @Model.Order.TotalPrice</p>
+</div>
+<div>
+    <h4>Customer Information</h4>
+    <p>Customer: @Model.Order.RecipentName</p>
+    <p>Phone: @Model.Order.PhoneNumber</p>
+    <p>Address: @Model.Order.ShippingAddress</p>
+    <p>Date: @Model.Order.OrderDate</p>
+    <!-- Display other customer information as needed -->
+</div>
+<div>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="MyOrders">My Orders</a>
+</div>
+
+
+
