@@ -1,0 +1,45 @@
+﻿@model Buoi3.Models.RevenueStatisticFilterViewModel
+
+<h2>Revenue Statistics</h2>
+
+<form method="get">
+    <div>
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" type="date" />
+    </div>
+    <div>
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" type="date" />
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="column-spacing">Day/Month</th>
+
+            <th class="column-spacing">Products</th>
+            <th class="column-spacing">Quantity</th>
+            <th class="column-spacing">Total Amount</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stat in Model.Statistics)
+        {
+            <tr>
+                <td class="column-spacing">@stat.Day/@stat.Month</td>       
+                <td>@stat.ProductName</td>
+                <td>@stat.Quantity</td>
+                <td class="column-spacing">@stat.TotalAmount.ToString("N0") USD</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4" style="text-align: right;"><strong>Total:</strong></td>
+            <td style="font-weight: bold;">@Model.Statistics.Sum(s => s.TotalAmount).ToString("N0") USD</td>
+        </tr>
+    </tfoot>
+</table>

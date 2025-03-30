@@ -1,0 +1,75 @@
+﻿@model Buoi3.Areas.Admin.Controllers.ProductController.CheckoutViewModel
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h2>Product List</h2>
+
+<div class="col-lg-7">
+    <a asp-action="Add" class="btn btn-success">Add New Product</a>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            @foreach (var category in Model.Categories)
+            {
+                <li>
+                    <a class="dropdown-item" href="@Url.Action("ProductCate", "Product", new { id = category.Id })">@category.Name</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+<div class="row">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card h-100">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 150px; object-fit: cover;">
+                @if (product.Images != null && product.Images.Any())
+                {
+                    <div id="carousel-@product.Id" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @for (var i = 0; i < product.Images.Count; i++)
+                            {
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <img src="@product.Images[i].Url" class="d-block w-100" alt="@product.Name" style="height: 50px; object-fit: cover;">
+                                </div>
+                            }
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@product.Id" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-@product.Id" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                }
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 1.0rem;"><strong>Id:</strong> @product.Id</h5>
+                    <h5 class="card-title" style="font-size: 1.1rem;">@product.Name</h5>
+                    <p class="card-text" style="font-size: 0.9rem;">
+                        <h5 style="text-align: center">$ @String.Format("{0:n2}", product.Price).Replace(",", ".")</h5>
+                        <strong>Category:</strong> @product.Category?.Name <br />
+                        <strong>Poppular:</strong> @product.Poppular?.Name <br />
+                    </p>                  
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+                        <a asp-action="Display" asp-route-id="@product.Id" class="btn btn-sm btn-outline-info">Detail</a>
+                        <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+

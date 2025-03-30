@@ -1,0 +1,283 @@
+﻿@model IEnumerable<Buoi3.Models.Product>
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+
+<section id="billboard" class="position-relative overflow-hidden bg-light-blue">
+
+	<div class="container">
+		<div class="row d-flex align-items-center">
+			<div class="col-md-6">
+				<div class="banner-content">
+					<h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1>
+					<a href="@Url.Action("shop","Home")" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="image-holder">
+					<img src="~/images/banner-image.png" alt="banner">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+<title>Button Float on Hover</title>
+<style>
+	.btn-add-to-cart {
+		padding: 10px 20px;
+		background-color: black;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: transform 0.3s ease; /* Adding a transition for smooth animation */
+	}
+
+		/* When the button is hovered over, apply a transformation */
+		.btn-add-to-cart:hover {
+			transform: translateY(-5px); /* Move the button 5 pixels upwards */
+		}
+</style>
+
+<div class="product-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Start Column 1 -->
+			<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+				<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+				<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
+				<p><a href="@Url.Action("shop","Home")" class="btn">Explore</a></p>
+			</div>
+			<!-- End Column 1 -->
+			<!-- Start Column 2 -->
+
+			<div style="display: flex">
+				@foreach (var product in Model)
+				{
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" asp-action="Details" asp-route-id="@product.Id">
+
+							@if (product.Id == 1 || product.Id == 2 || product.Id == 3 || product.Id == 4)
+							{
+
+								@if (!string.IsNullOrEmpty(product.ImageUrl))
+								{
+									<img src="@product.ImageUrl" style="max-width: 280px; max-height: 175px;" />
+								}
+								else
+								{
+									<span>No Image</span>
+								}
+								<h4 style="text-align: center">@product.Name</h4>
+								<h5 style="text-align: center">@product.Price.ToString("N0") VND</h5>
+
+								<form method="post" action="@Url.Action("AddToCart","ShoppingCart")">
+									<input type="hidden" name="productID" value="@product.Id" />
+									<input type="hidden" name="Quantity" value="@product.Id" />
+									<button type="submit" class="btn-add-to-cart">Add to cart</button>
+								</form>
+							}
+						</a>
+					</div>
+				}
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+<div class="why-choose-section">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-6">
+				<h2 class="section-title">Why Choose Us</h2>
+				<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+
+				<div class="row my-5">
+					<div class="col-6 col-md-6">
+						<div class="feature">
+							<div class="icon">
+								<img src="~/images/truck.svg" alt="Image" class="imf-fluid">
+							</div>
+							<h3>Fast &amp; Free Shipping</h3>
+							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-6">
+						<div class="feature">
+							<div class="icon">
+								<img src="~/images/bag.svg" alt="Image" class="imf-fluid">
+							</div>
+							<h3>Easy to Shop</h3>
+							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-6">
+						<div class="feature">
+							<div class="icon">
+								<img src="~/images/support.svg" alt="Image" class="imf-fluid">
+							</div>
+							<h3>24/7 Support</h3>
+							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-6">
+						<div class="feature">
+							<div class="icon">
+								<img src="~/images/return.svg" alt="Image" class="imf-fluid">
+							</div>
+							<h3>Hassle Free Returns</h3>
+							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-5">
+				<div class="img-wrap">
+					<img src="~/images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- End Why Choose Us Section -->
+<!-- Start We Help Section -->
+<div class="we-help-section">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-7 mb-5 mb-lg-0">
+				<div class="imgs-grid">
+					<div class="grid grid-1"><img src="images/insta-item1.jpg" alt="Untree.co"></div>
+					<div class="grid grid-2"><img src="images/insta-item2.jpg" alt="Untree.co"></div>
+					<div class="grid grid-3"><img src="images/insta-item3.jpg" alt="Untree.co"></div>
+				</div>
+			</div>
+			<div class="col-lg-5 ps-lg-5">
+				<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+				<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+
+				<ul class="list-unstyled custom-list my-4">
+					<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					<li>Donec vitae odio quis nisl dapibus malesuada</li>
+				</ul>
+				<p><a herf="#" class="btn">Explore</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End We Help Section -->
+<!-- Start Testimonial Slider -->
+<div class="testimonial-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 mx-auto text-center">
+				<h2 class="section-title">Testimonials</h2>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				<div class="testimonial-slider-wrap text-center">
+
+					<div id="testimonial-nav">
+						<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
+						<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
+					</div>
+
+					<div class="testimonial-slider">
+
+						<div class="item">
+							<div class="row justify-content-center">
+								<div class="col-lg-8 mx-auto">
+
+									<div class="testimonial-block text-center">
+										<blockquote class="mb-5">
+											<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+										</blockquote>
+
+										<div class="author-info">
+											<div class="author-pic">
+												<img src="~/images/person-11.jpg" alt="Maria Jones" class="img-fluid">
+											</div>
+											<h3 class="font-weight-bold">Maria Jones</h3>
+											<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- END item -->
+
+						<div class="item">
+							<div class="row justify-content-center">
+								<div class="col-lg-8 mx-auto">
+
+									<div class="testimonial-block text-center">
+										<blockquote class="mb-5">
+											<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+										</blockquote>
+
+										<div class="author-info">
+											<div class="author-pic">
+												<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+											</div>
+											<h3 class="font-weight-bold">Maria Jones</h3>
+											<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- END item -->
+
+						<div class="item">
+							<div class="row justify-content-center">
+								<div class="col-lg-8 mx-auto">
+
+									<div class="testimonial-block text-center">
+										<blockquote class="mb-5">
+											<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+										</blockquote>
+
+										<div class="author-info">
+											<div class="author-pic">
+												<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+											</div>
+											<h3 class="font-weight-bold">Maria Jones</h3>
+											<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- END item -->
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Testimonial Slider -->
+<!-- Start Footer Section -->

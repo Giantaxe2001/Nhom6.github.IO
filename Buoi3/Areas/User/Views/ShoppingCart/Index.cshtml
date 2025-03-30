@@ -1,0 +1,124 @@
+﻿@model ShoppingCart
+
+
+<body>
+    <!-- Start Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="intro-excerpt">
+                        <h1>Your Cart</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+    <div class="untree_co-section before-footer-section">
+        <div class="container">
+            <div class="row mb-5">
+                <form class="col-md-12" method="post">
+                    <div class="site-blocks-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-total">Total</th>
+                                    <th class="product-remove">Remove</th>
+                                </tr>
+                            </thead>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .quantity-button {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            color: #333;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .quantity-button:hover {
+                background-color: #e0e0e0;
+            }
+    </style>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+
+            <td>
+                @if (!string.IsNullOrEmpty(item.Image))
+                {
+                    <img src="@item.Image" style="max-width: 75px; max-height: 50px;" />
+                }
+                else
+                {
+                    <span>No Image</span>
+                }
+            </td>
+            <td>@item.Name</td>
+            <td>
+                <form asp-action="UpdateCartItem" asp-controller="ShoppingCart" method="post">
+                    <input type="hidden" name="productId" value="@item.ProductId" />
+                    <button type="submit" name="quantity" value="@Math.Max(item.Quantity - 1, 1)" class="quantity-button">-</button> <!-- Decrease button -->
+                    <span>@item.Quantity</span>
+                    <button type="submit" name="quantity" value="@Math.Max(item.Quantity + 1, 1)" class="quantity-button">+</button> <!-- Increase button -->
+                </form>
+            </td>
+
+            <td>$ @item.Price</td>
+            <td>$ @(item.Price * item.Quantity)</td>
+            <td>
+                <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+            </td>
+        </tr>
+    }
+    <tr>
+        <td colspan="4"><strong>Total Price:</strong></td>
+        <td><strong>@Model.Items.Sum(item => item.Price * item.Quantity)</strong></td>
+        <td></td>
+    </tr>
+    <style>
+        .checkout-button {
+            text-align: right;
+        }
+
+            .checkout-button a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #3b5d50;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+
+                .checkout-button a:hover {
+                    background-color: green;
+                }
+
+                .checkout-button a.disabled {
+                    background-color: gray;
+                    cursor: not-allowed;
+                }
+    </style>
+
+    <div class="checkout-button">
+        @if (Model.Items.Any())
+        {
+            <a asp-action="checkout" asp-controller="ShoppingCart">Check Out</a>
+        }
+        else
+        {
+            <a class="disabled">Check Out</a>
+        }
+</body>

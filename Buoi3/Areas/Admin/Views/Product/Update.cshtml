@@ -1,0 +1,59 @@
+﻿@model Buoi3.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Update Product";
+}
+
+<h2>Update Product</h2>
+
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+   
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CategoryId">Category</label>
+            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="PoppularId">Poppular</label>
+            <select asp-for="PoppularId" asp-items="ViewBag.poppulars" class="form-control"></select>
+        </div>
+        <div class="form-group">      
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <div>
+                <img src="@Model.ImageUrl" alt="Current Image" class="img-thumbnail" style="max-width: 200px; max-height: 200px;" />
+            </div>
+        }       
+        </div>
+        <div class="form-group">
+            <label asp-for="ImageUrl">Thumbnail Image</label>
+            <input type="file" id="thumbnailImage" name="thumbnailImage" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>     
+         
+    
+    <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

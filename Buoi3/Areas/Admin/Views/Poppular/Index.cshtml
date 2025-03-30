@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Buoi3.Models.Poppular>
+
+<h2>Poppulars</h2>
+<a asp-action="Add">Create New</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pop in Model)
+        {
+            <tr>
+                <td>@pop.Id</td>
+                <td>@pop.Name</td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@pop.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@pop.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
