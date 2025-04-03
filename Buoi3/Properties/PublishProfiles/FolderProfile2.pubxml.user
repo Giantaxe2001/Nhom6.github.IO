@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <History>True|2024-06-15T15:54:11.6971149Z;True|2024-06-15T22:53:16.0388123+07:00;True|2024-06-15T22:46:27.4225188+07:00;True|2024-06-15T22:41:47.1490302+07:00;True|2024-06-15T13:07:58.3476585+07:00;True|2024-06-15T13:00:16.6901439+07:00;True|2024-06-15T11:18:02.3939603+07:00;True|2024-06-15T10:38:07.5755029+07:00;True|2024-06-15T02:30:34.7247700+07:00;False|2024-06-15T01:28:57.2664106+07:00;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>C:\Users\Admin\OneDrive\Máy tính\LeXuanDucAnh_NguyenPhuongDuy\Source\Buoi3\Buoi3\bin\Release\net8.0\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

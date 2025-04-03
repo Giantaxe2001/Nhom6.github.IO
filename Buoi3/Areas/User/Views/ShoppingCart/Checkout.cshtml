@@ -1,0 +1,176 @@
+﻿@model Buoi3.Models.CheckoutViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Cart</title>   
+    <style>
+        .quantity-button {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            color: #333;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .quantity-button:hover {
+                background-color: #e0e0e0;
+            }
+
+            .quantity-button[disabled] {
+                cursor: not-allowed;
+            }
+
+        .checkout-button {
+            text-align: right;
+        }
+
+            .checkout-button a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #3b5d50;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+
+                .checkout-button a:hover {
+                    background-color: green;
+                }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="intro-excerpt">
+                        <h1>Your Cart</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="untree_co-section before-footer-section">
+        <div class="container">
+            <div class="row mb-5">
+                <form class="col-md-12" asp-action="Checkout" method="post">
+                    <div class="site-blocks-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-total">Total</th>
+                                    <th class="product-remove">Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.ShoppingCart.Items)
+                                {
+                                    <tr>
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(item.Image))
+                                            {
+                                                <img src="@item.Image" style="max-width: 75px; max-height: 50px;" />
+                                            }
+                                            else
+                                            {
+                                                <span>No Image</span>
+                                            }
+                                        </td>
+                                        <td>@item.Name</td>
+                                        <td>
+                                            @item.Quantity
+                                        </td>
+                                        <td>@item.Price</td>
+                                        <td>@(item.Price * item.Quantity)</td>
+                                        <td>
+                                            <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+                                        </td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="4"><strong>Total Price:</strong></td>
+                                    <td><strong>@Model.ShoppingCart.Items.Sum(item => item.Price * item.Quantity)</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>                   
+                </form>
+            </div>
+
+            <!-- Billing Details Form -->
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <h2 class="h3 mb-3 text-black">Billing Details</h2>
+                    <div class="p-3 p-lg-5 border bg-white">
+                        <form asp-action="Checkout" method="post">
+                            <div class="form-group row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Order.RecipentName">Name</label>
+                                    <input asp-for="Order.RecipentName" class="form-control" />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Order.ShippingAddress">Address</label>
+                                    <input asp-for="Order.ShippingAddress" class="form-control" />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Order.PhoneNumber">Phone Number</label>
+                                    <input asp-for="Order.PhoneNumber" class="form-control" />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Order.Notes">Notes</label>
+                                    <input asp-for="Order.Notes" class="form-control" />
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <h2 class="h3 mb-3 text-black">Your Order</h2>
+                    <div class="p-3 p-lg-5 border bg-white">
+                        <table class="table site-block-order-table mb-5">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.ShoppingCart.Items)
+                                {
+                                    <tr>
+                                        <td>@item.Name <strong class="mx-2">x</strong> @item.Quantity</td>
+                                        <td>@(item.Price * item.Quantity)</td>
+                                    </tr>
+                                }                              
+                                <tr>
+                                    <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+                                    <td class="text-black font-weight-bold"><strong>@Model.ShoppingCart.Items.Sum(i => i.Price * i.Quantity)</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="checkout-button">
+                            <a asp-action="Index" asp-controller="ShoppingCart" class="btn btn-black btn-lg py-3">Back To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/tiny-slider.js"></script>
+    <script src="~/js/custom.js"></script>
+</body>
+</html>

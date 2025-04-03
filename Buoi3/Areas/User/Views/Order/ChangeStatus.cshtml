@@ -1,0 +1,14 @@
+﻿@model Buoi3.Areas.User.Controllers.OrderController.ChangeStatusViewModel
+
+<h2>Cancel Order</h2>
+
+    <input type="hidden" asp-for="OrderId" />
+    <div class="form-group">   
+        <select asp-for="CurrentStatus" asp-items="@Model.StatusList" class="form-control" readonly>    
+        </select>      
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cancel Order</button>
+<div>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="MyOrders">My Orders</a>
+</div>
